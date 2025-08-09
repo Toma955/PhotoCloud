@@ -1,0 +1,181 @@
+.upload-zone {
+  margin-bottom: 24px;
+}
+
+.upload-area {
+  border: 2px dashed var(--apple-border);
+  border-radius: var(--apple-radius-large);
+  background-color: var(--apple-bg-secondary);
+  padding: 40px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.upload-area:hover {
+  border-color: var(--apple-accent);
+  background-color: var(--apple-bg-tertiary);
+  transform: translateY(-2px);
+  box-shadow: var(--apple-shadow-light);
+}
+
+.upload-area.drag-active {
+  border-color: var(--apple-accent);
+  background-color: var(--apple-accent);
+  color: white;
+  transform: scale(1.02);
+  box-shadow: var(--apple-shadow);
+}
+
+.upload-area.drag-active .upload-icon,
+.upload-area.drag-active .upload-title,
+.upload-area.drag-active .upload-description,
+.upload-area.drag-active .upload-hint {
+  color: white;
+}
+
+.upload-area.uploading {
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+.upload-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.upload-icon {
+  font-size: 48px;
+  margin-bottom: 8px;
+  opacity: 0.8;
+}
+
+.upload-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--apple-text-primary);
+  margin: 0;
+}
+
+.upload-description {
+  font-size: 16px;
+  color: var(--apple-text-secondary);
+  margin: 0;
+  max-width: 400px;
+}
+
+.upload-hint {
+  font-size: 14px;
+  color: var(--apple-text-tertiary);
+  margin: 0;
+}
+
+/* Progress Bar */
+.upload-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background-color: var(--apple-bg-tertiary);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--apple-accent), var(--apple-accent-hover));
+  border-radius: 4px;
+  transition: width 0.3s ease;
+  position: relative;
+}
+
+.progress-fill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.progress-text {
+  font-size: 14px;
+  color: var(--apple-text-secondary);
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .upload-area {
+    padding: 32px 16px;
+  }
+  
+  .upload-icon {
+    font-size: 40px;
+  }
+  
+  .upload-title {
+    font-size: 20px;
+  }
+  
+  .upload-description {
+    font-size: 14px;
+  }
+  
+  .upload-hint {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .upload-area {
+    padding: 24px 12px;
+  }
+  
+  .upload-icon {
+    font-size: 36px;
+  }
+  
+  .upload-title {
+    font-size: 18px;
+  }
+}
+
+/* Focus styles */
+.upload-area:focus {
+  outline: 2px solid var(--apple-accent);
+  outline-offset: 2px;
+}
+
+/* Touch feedback for mobile */
+@media (hover: none) {
+  .upload-area:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  
+  .upload-area:active {
+    transform: scale(0.98);
+  }
+} 

@@ -1,0 +1,176 @@
+.photo-card {
+  background-color: var(--apple-bg-secondary);
+  border-radius: var(--apple-radius);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid var(--apple-border-light);
+  position: relative;
+}
+
+.photo-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--apple-shadow);
+  border-color: var(--apple-border);
+}
+
+.photo-card:active {
+  transform: translateY(-2px);
+}
+
+.photo-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background-color: var(--apple-bg-tertiary);
+}
+
+.photo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.photo-image.loaded {
+  opacity: 1;
+}
+
+.photo-card:hover .photo-image {
+  transform: scale(1.05);
+}
+
+.photo-info {
+  padding: 12px;
+  background-color: var(--apple-bg-secondary);
+}
+
+.photo-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--apple-text-primary);
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.photo-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--apple-text-secondary);
+}
+
+.photo-size,
+.photo-date {
+  font-weight: 400;
+}
+
+/* Loading Placeholder */
+.loading-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--apple-bg-tertiary);
+}
+
+.loading-spinner {
+  width: 24px;
+  height: 24px;
+  border: 2px solid var(--apple-border);
+  border-top: 2px solid var(--apple-accent);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Error State */
+.photo-card.error {
+  background-color: var(--apple-bg-tertiary);
+  border-color: #ff3b30;
+}
+
+.error-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: var(--apple-text-secondary);
+  text-align: center;
+}
+
+.error-icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+  opacity: 0.6;
+}
+
+.error-content p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Focus styles */
+.photo-card:focus {
+  outline: 2px solid var(--apple-accent);
+  outline-offset: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .photo-info {
+    padding: 8px;
+  }
+  
+  .photo-name {
+    font-size: 12px;
+  }
+  
+  .photo-meta {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .photo-info {
+    padding: 6px;
+  }
+  
+  .photo-name {
+    font-size: 11px;
+  }
+  
+  .photo-meta {
+    font-size: 10px;
+  }
+}
+
+/* Touch feedback for mobile */
+@media (hover: none) {
+  .photo-card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  
+  .photo-card:active {
+    transform: scale(0.98);
+  }
+  
+  .photo-card:hover .photo-image {
+    transform: none;
+  }
+} 

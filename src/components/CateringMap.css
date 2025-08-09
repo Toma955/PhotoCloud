@@ -1,0 +1,360 @@
+.catering-map {
+  width: 100%;
+  max-width: 600px;
+}
+
+.map-container {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--apple-border);
+  border-radius: 24px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  box-shadow: var(--apple-shadow);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.map-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(255, 255, 255, 0.05) 100%);
+  pointer-events: none;
+}
+
+.map-container:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--apple-shadow-light);
+  border-color: var(--apple-border-light);
+}
+
+/* Map Icon */
+.map-icon {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.map-container:hover .map-icon {
+  background: rgba(255, 255, 255, 0.15);
+  transform: scale(1.05);
+}
+
+/* Map Content */
+.map-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.map-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.map-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--apple-text-tertiary);
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.map-location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--apple-text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.location-icon {
+  font-size: 16px;
+}
+
+/* Map Details */
+.map-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.detail-item:last-child {
+  border-bottom: none;
+}
+
+.detail-label {
+  font-size: 14px;
+  color: var(--apple-text-tertiary);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.detail-icon {
+  font-size: 16px;
+  opacity: 0.8;
+  color: var(--apple-text-tertiary);
+}
+
+.detail-value {
+  font-size: 14px;
+  color: var(--apple-text-tertiary);
+  font-weight: 600;
+}
+
+.status-active {
+  color: var(--apple-accent);
+  background: rgba(74, 222, 128, 0.1);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.status-offer {
+  color: #fbbf24;
+  background: rgba(251, 191, 36, 0.1);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+
+
+/* Map Section */
+.map-section {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.map-section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 12px 0;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.map-frame {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  width: 100%;
+  height: 0;
+  padding-bottom: 33.33%; /* Makes it 3:1 aspect ratio (width:height) */
+  position: relative;
+}
+
+.map-frame iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  filter: brightness(0.8) contrast(1.1);
+}
+
+.map-overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.location-pin {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pin-icon {
+  font-size: 16px;
+}
+
+.pin-text {
+  font-weight: 600;
+}
+
+/* Map Footer */
+.map-footer {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(128, 128, 128, 0.1);
+  padding: 12px 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  color: var(--apple-text-tertiary);
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.service-badge:hover {
+  background: rgba(128, 128, 128, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(128, 128, 128, 0.3);
+}
+
+.badge-icon {
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .map-container {
+    padding: 24px;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .map-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .map-title {
+    font-size: 24px;
+  }
+  
+  .map-details {
+    gap: 8px;
+  }
+  
+  .detail-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+  
+  .detail-label {
+    font-size: 12px;
+  }
+  
+  .detail-value {
+    font-size: 13px;
+  }
+  
+  .detail-icon {
+    font-size: 14px;
+  }
+  
+  .map-section-title {
+    font-size: 14px;
+  }
+  
+  .location-pin {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+  
+  .pin-icon {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .map-container {
+    padding: 20px;
+  }
+  
+  .map-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .map-title {
+    font-size: 20px;
+  }
+  
+  .map-location {
+    font-size: 12px;
+  }
+  
+  .detail-icon {
+    font-size: 12px;
+  }
+  
+  .map-section-title {
+    font-size: 12px;
+  }
+  
+  .location-pin {
+    padding: 4px 8px;
+    font-size: 11px;
+  }
+  
+  .pin-icon {
+    font-size: 12px;
+  }
+  
+  .service-badge {
+    padding: 6px 12px;
+    font-size: 11px;
+  }
+}
+
+/* Animations */
+@keyframes mapGlow {
+  0%, 100% {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  }
+  50% {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 255, 255, 0.1);
+  }
+}
+
+.map-container {
+  animation: mapGlow 3s ease-in-out infinite;
+} 

@@ -1,0 +1,94 @@
+.photo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Override PhotoCard styles for list view */
+.photo-list .photo-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 16px;
+}
+
+.photo-list .photo-container {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: var(--apple-radius-small);
+}
+
+.photo-list .photo-info {
+  flex: 1;
+  padding: 0;
+  background: none;
+}
+
+.photo-list .photo-name {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  white-space: normal;
+  line-height: 1.4;
+}
+
+.photo-list .photo-meta {
+  font-size: 14px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.photo-list .photo-size,
+.photo-list .photo-date {
+  font-weight: 400;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .photo-list {
+    gap: 8px;
+  }
+  
+  .photo-list .photo-card {
+    padding: 8px;
+    gap: 12px;
+  }
+  
+  .photo-list .photo-container {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .photo-list .photo-name {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  
+  .photo-list .photo-meta {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .photo-list .photo-card {
+    padding: 6px;
+    gap: 8px;
+  }
+  
+  .photo-list .photo-container {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .photo-list .photo-name {
+    font-size: 13px;
+    margin-bottom: 4px;
+  }
+  
+  .photo-list .photo-meta {
+    font-size: 11px;
+  }
+} 

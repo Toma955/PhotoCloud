@@ -1,0 +1,164 @@
+.countdown-timer {
+  background: transparent;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: auto;
+  transition: all 0.3s ease;
+}
+
+.countdown-timer:hover {
+  transform: translateY(-2px);
+}
+
+/* Timer Header */
+.timer-header {
+  display: none;
+}
+
+.timer-icon {
+  font-size: 14px;
+}
+
+.timer-label {
+  font-size: 12px;
+}
+
+/* Timer Display */
+.timer-display {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.time-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.time-value {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--apple-text-tertiary);
+  font-family: 'Inter', monospace;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2px 6px;
+  border-radius: 6px;
+  min-width: 24px;
+  text-align: center;
+}
+
+.time-label {
+  font-size: 8px;
+  color: var(--apple-text-tertiary);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.time-separator {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--apple-text-tertiary);
+  margin-top: -4px;
+}
+
+/* Timer Footer */
+.timer-footer {
+  margin-top: 4px;
+}
+
+.availability-text {
+  font-size: 10px;
+  color: #4ade80;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: rgba(74, 222, 128, 0.1);
+  padding: 4px 8px;
+  border-radius: 12px;
+  border: 1px solid rgba(74, 222, 128, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .countdown-timer {
+    padding: 0;
+    width: 100%;
+  }
+  
+  .time-value {
+    font-size: 16px;
+    min-width: 28px;
+  }
+  
+  .time-label {
+    font-size: 9px;
+  }
+  
+  .time-separator {
+    font-size: 14px;
+  }
+  
+  .timer-header {
+    font-size: 11px;
+  }
+  
+  .timer-icon {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .countdown-timer {
+    padding: 0;
+    width: 100%;
+  }
+  
+  .time-value {
+    font-size: 14px;
+    min-width: 24px;
+    padding: 2px 6px;
+  }
+  
+  .time-label {
+    font-size: 8px;
+  }
+  
+  .time-separator {
+    font-size: 12px;
+  }
+  
+  .timer-display {
+    gap: 6px;
+  }
+  
+  .availability-text {
+    font-size: 9px;
+    padding: 3px 6px;
+  }
+}
+
+/* Animations */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.time-value {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.time-value:nth-child(1) { animation-delay: 0s; }
+.time-value:nth-child(3) { animation-delay: 0.5s; }
+.time-value:nth-child(5) { animation-delay: 1s; }
+.time-value:nth-child(7) { animation-delay: 1.5s; } 

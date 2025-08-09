@@ -1,0 +1,197 @@
+.background-gallery {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+/* Background Photos */
+.background-photo {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  animation: float 6s ease-in-out infinite;
+  transition: all 0.3s ease;
+}
+
+.background-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.8) contrast(1.2);
+}
+
+/* Photo Reflection */
+.photo-reflection {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  transform: scaleY(-1);
+  filter: blur(2px);
+  opacity: 0.6;
+}
+
+/* Floating Animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(var(--rotation)) scale(var(--scale));
+  }
+  50% {
+    transform: translateY(-20px) rotate(var(--rotation)) scale(var(--scale));
+  }
+}
+
+/* Floating Elements */
+.floating-element {
+  position: absolute;
+  font-size: 24px;
+  opacity: 0.3;
+  animation: floatElement 8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.floating-1 {
+  top: 20%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.floating-2 {
+  top: 60%;
+  right: 15%;
+  animation-delay: 1.5s;
+}
+
+.floating-3 {
+  top: 80%;
+  left: 20%;
+  animation-delay: 3s;
+}
+
+.floating-4 {
+  top: 30%;
+  right: 30%;
+  animation-delay: 4.5s;
+}
+
+.floating-5 {
+  top: 70%;
+  left: 60%;
+  animation-delay: 6s;
+}
+
+@keyframes floatElement {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 0.3;
+  }
+  25% {
+    transform: translateY(-15px) rotate(5deg);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(-30px) rotate(0deg);
+    opacity: 0.3;
+  }
+  75% {
+    transform: translateY(-15px) rotate(-5deg);
+    opacity: 0.5;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .background-photo {
+    width: 150px;
+    height: 112px;
+  }
+  
+  .floating-element {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .background-photo {
+    width: 120px;
+    height: 90px;
+  }
+  
+  .floating-element {
+    font-size: 18px;
+  }
+}
+
+/* Additional Effects */
+.background-gallery::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at 50% 50%,
+    transparent 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+  pointer-events: none;
+}
+
+/* Hover effects for photos */
+.background-photo:hover {
+  opacity: 0.8 !important;
+  transform: scale(1.1) rotate(var(--rotation)) !important;
+  z-index: 2;
+}
+
+/* Smooth transitions */
+.background-photo,
+.floating-element {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Loading State */
+.background-gallery.loading {
+  opacity: 0.7;
+}
+
+.background-gallery.loading .background-photo {
+  animation-duration: 8s;
+  opacity: 0.5;
+}
+
+/* Image Loading States */
+.background-photo img {
+  transition: opacity 0.3s ease;
+}
+
+.background-photo img[src*="unsplash"] {
+  /* Fallback images have different styling */
+  filter: brightness(0.7) contrast(1.1) saturate(0.9);
+}
+
+/* Error handling for images */
+.background-photo img:not([src]) {
+  opacity: 0;
+}
+
+/* Improved floating animation for Cloudinary images */
+.background-photo img[src*="cloudinary"] {
+  filter: brightness(0.8) contrast(1.2) saturate(1.1);
+} 
