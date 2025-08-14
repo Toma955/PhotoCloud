@@ -7,7 +7,7 @@ const CateringMap = ({ theme, toggleTheme, onNavigateToPhotos }) => {
   const [currentDate, setCurrentDate] = useState(new Date());
 
   const handleOpenFolder = () => {
-    // Navigate to photos page
+    // Allow navigation immediately
     if (onNavigateToPhotos) {
       onNavigateToPhotos();
     } else {
@@ -110,24 +110,26 @@ const CateringMap = ({ theme, toggleTheme, onNavigateToPhotos }) => {
                 <CountdownTimer />
               </span>
             </div>
-            
-
           </div>
           
-
-          
           <div className="map-footer">
-            <div className="service-badge" onClick={handleOpenFolder} style={{ cursor: 'pointer' }}>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style={{ marginRight: '8px' }}>
-                <path 
-                  d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-5l-2-2H5a2 2 0 00-2 2z" 
-                  stroke="currentColor" 
-                  strokeWidth="2" 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round"
-                />
-              </svg>
-              <span>Otvori Folder</span>
+            <div 
+              className="service-badge enabled" 
+              onClick={handleOpenFolder} 
+              style={{ cursor: 'pointer' }}
+            >
+              <div className="button-content">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style={{ marginRight: '8px' }}>
+                  <path 
+                    d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-5l-2-2H5a2 2 0 00-2 2z" 
+                    stroke="currentColor" 
+                    strokeWidth="2" 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round"
+                  />
+                </svg>
+                <span>Otvori Folder</span>
+              </div>
             </div>
           </div>
         </div>

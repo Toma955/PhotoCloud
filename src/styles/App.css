@@ -34,7 +34,7 @@
   transform: translateY(0);
 }
 
-/* Header Styles - Removed */
+
 
 /* Main Content */
 .app-main {
@@ -136,7 +136,6 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  
   .app-main {
     padding: 20px 16px;
   }
@@ -150,27 +149,22 @@
   }
   
   .info-card h2 {
-    font-size: 22px;
-  }
-  
-  .info-card p {
-    font-size: 14px;
+    font-size: 24px;
   }
   
   .service-highlights {
     gap: 20px;
   }
-  
-  .highlight {
-    padding: 16px;
-  }
-  
-  .highlight-icon {
-    font-size: 24px;
-  }
 }
 
 @media (max-width: 480px) {
+  .app-main {
+    padding: 16px 12px;
+  }
+  
+  .gallery-container {
+    gap: 30px;
+  }
   
   .info-card {
     padding: 20px;
@@ -180,9 +174,8 @@
     font-size: 20px;
   }
   
-  .service-highlights {
-    flex-direction: column;
-    gap: 16px;
+  .info-card p {
+    font-size: 14px;
   }
 }
 

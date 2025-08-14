@@ -60,13 +60,13 @@ function App() {
           <div className={`main-content ${isLoaded ? 'loaded' : ''}`}>
             {/* Main Gallery */}
             <main className="app-main">
-                          <div className="gallery-container">
-              <CateringMap 
-                theme={theme} 
-                toggleTheme={toggleTheme} 
-                onNavigateToPhotos={() => setCurrentPage('photos')}
-              />
-            </div>
+              <div className="gallery-container">
+                <CateringMap 
+                  theme={theme} 
+                  toggleTheme={toggleTheme} 
+                  onNavigateToPhotos={() => setCurrentPage('photos')}
+                />
+              </div>
             </main>
           </div>
         </>

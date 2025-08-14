@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "url": "https://storage.googleapis.com/cateringphotos/3J4A4083.CR3",
+      "title": "Catering Photo 1",
+      "description": "Professional catering setup photo",
+      "category": "catering",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "url": "https://storage.googleapis.com/cateringphotos/3J4A4083.CR3",
+      "title": "Catering Photo 2",
+      "description": "Another view of the catering setup",
+      "category": "setup",
+      "featured": false
+    }
+  ],
+  "categories": [
+    "catering",
+    "events",
+    "food",
+    "setup",
+    "desserts",
+    "drinks"
+  ],
+  "googleStorageBase": "https://storage.googleapis.com/cateringphotos/"
+} 

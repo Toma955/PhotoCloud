@@ -1,0 +1,581 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "photoNumber": "3J4A4083",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4083.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4083.JPG",
+      "title": "Catering Setup 1",
+      "description": "Professional catering setup and presentation",
+      "category": "setup",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "photoNumber": "3J4A4084",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4084.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4084.JPG",
+      "title": "Catering Setup 2",
+      "description": "Elegant table arrangement and decoration",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "photoNumber": "3J4A4085",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4085.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4085.JPG",
+      "title": "Catering Setup 3",
+      "description": "Professional food presentation",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 4,
+      "photoNumber": "3J4A4086",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4086.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4086.JPG",
+      "title": "Catering Setup 4",
+      "description": "Table setting and arrangement",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "photoNumber": "3J4A4087",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4087.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4087.JPG",
+      "title": "Catering Setup 5",
+      "description": "Food display and presentation",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "photoNumber": "3J4A4088",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4088.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4088.JPG",
+      "title": "Catering Setup 6",
+      "description": "Professional catering service",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "photoNumber": "3J4A4089",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4089.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4089.JPG",
+      "title": "Catering Setup 7",
+      "description": "Table decoration and setup",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "photoNumber": "3J4A4090",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4090.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4090.JPG",
+      "title": "Catering Setup 8",
+      "description": "Food preparation and display",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 9,
+      "photoNumber": "3J4A4091",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4091.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4091.JPG",
+      "title": "Catering Setup 9",
+      "description": "Professional service setup",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 10,
+      "photoNumber": "3J4A4092",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4092.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4092.JPG",
+      "title": "Catering Setup 10",
+      "description": "Table arrangement and decoration",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 11,
+      "photoNumber": "3J4A4093",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4093.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4093.JPG",
+      "title": "Catering Setup 11",
+      "description": "Food presentation and display",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 12,
+      "photoNumber": "3J4A4094",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4094.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4094.JPG",
+      "title": "Catering Setup 12",
+      "description": "Professional catering arrangement",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 13,
+      "photoNumber": "3J4A4095",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4095.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4095.JPG",
+      "title": "Catering Setup 13",
+      "description": "Table setting and decoration",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 14,
+      "photoNumber": "3J4A4096",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4096.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4096.JPG",
+      "title": "Catering Setup 14",
+      "description": "Food display and presentation",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 15,
+      "photoNumber": "3J4A4097",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4097.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4097.JPG",
+      "title": "Catering Setup 15",
+      "description": "Professional service setup",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 16,
+      "photoNumber": "3J4A4098",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4098.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4098.JPG",
+      "title": "Catering Setup 16",
+      "description": "Table decoration and arrangement",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 17,
+      "photoNumber": "3J4A4099",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4099.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4099.JPG",
+      "title": "Catering Setup 17",
+      "description": "Food preparation and display",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 18,
+      "photoNumber": "3J4A4100",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4100.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4100.JPG",
+      "title": "Catering Setup 18",
+      "description": "Professional catering service",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 19,
+      "photoNumber": "3J4A4101",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4101.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4101.JPG",
+      "title": "Catering Setup 19",
+      "description": "Table arrangement and decoration",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 20,
+      "photoNumber": "3J4A4102",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4102.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4102.JPG",
+      "title": "Catering Setup 20",
+      "description": "Food presentation and display",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 21,
+      "photoNumber": "3J4A4103",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4103.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4103.JPG",
+      "title": "Catering Setup 21",
+      "description": "Professional catering arrangement",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 22,
+      "photoNumber": "3J4A4104",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4104.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4104.JPG",
+      "title": "Catering Setup 22",
+      "description": "Table setting and decoration",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 23,
+      "photoNumber": "3J4A4105",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4105.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4105.JPG",
+      "title": "Catering Setup 23",
+      "description": "Food display and presentation",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 24,
+      "photoNumber": "3J4A4106",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4106.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4106.JPG",
+      "title": "Catering Setup 24",
+      "description": "Professional service setup",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 25,
+      "photoNumber": "3J4A4107",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4107.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4107.JPG",
+      "title": "Catering Setup 25",
+      "description": "Table decoration and arrangement",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 26,
+      "photoNumber": "3J4A4108",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4108.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4108.JPG",
+      "title": "Catering Setup 26",
+      "description": "Food preparation and display",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 27,
+      "photoNumber": "3J4A4109",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4109.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4109.JPG",
+      "title": "Catering Setup 27",
+      "description": "Professional catering service",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 28,
+      "photoNumber": "3J4A4110",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4110.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4110.JPG",
+      "title": "Catering Setup 28",
+      "description": "Table arrangement and decoration",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 29,
+      "photoNumber": "3J4A4111",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4111.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4111.JPG",
+      "title": "Catering Setup 29",
+      "description": "Food presentation and display",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 30,
+      "photoNumber": "3J4A4112",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4112.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4112.JPG",
+      "title": "Catering Setup 30",
+      "description": "Professional catering arrangement",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 31,
+      "photoNumber": "3J4A4113",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4113.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4113.JPG",
+      "title": "Catering Setup 31",
+      "description": "Table setting and decoration",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 32,
+      "photoNumber": "3J4A4114",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4114.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4114.JPG",
+      "title": "Catering Setup 32",
+      "description": "Food display and presentation",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 33,
+      "photoNumber": "3J4A4115",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4115.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4115.JPG",
+      "title": "Catering Setup 33",
+      "description": "Professional service setup",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 34,
+      "photoNumber": "3J4A4116",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4116.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4116.JPG",
+      "title": "Catering Setup 34",
+      "description": "Table decoration and arrangement",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 35,
+      "photoNumber": "3J4A4117",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4117.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4117.JPG",
+      "title": "Catering Setup 35",
+      "description": "Food preparation and display",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 36,
+      "photoNumber": "3J4A4118",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4118.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4118.JPG",
+      "title": "Catering Setup 36",
+      "description": "Professional catering service",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 37,
+      "photoNumber": "3J4A4119",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4119.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4119.JPG",
+      "title": "Catering Setup 37",
+      "description": "Table arrangement and decoration",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 38,
+      "photoNumber": "3J4A4120",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4120.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4120.JPG",
+      "title": "Catering Setup 38",
+      "description": "Food presentation and display",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 39,
+      "photoNumber": "3J4A4121",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4121.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4121.JPG",
+      "title": "Catering Setup 39",
+      "description": "Professional catering arrangement",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 40,
+      "photoNumber": "3J4A4122",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4122.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4122.JPG",
+      "title": "Catering Setup 40",
+      "description": "Table setting and decoration",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 41,
+      "photoNumber": "3J4A4123",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4123.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4123.JPG",
+      "title": "Catering Setup 41",
+      "description": "Food display and presentation",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 42,
+      "photoNumber": "3J4A4124",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4124.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4124.JPG",
+      "title": "Catering Setup 42",
+      "description": "Professional service setup",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 43,
+      "photoNumber": "3J4A4125",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4125.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4125.JPG",
+      "title": "Catering Setup 43",
+      "description": "Table decoration and arrangement",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 44,
+      "photoNumber": "3J4A4126",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4126.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4126.JPG",
+      "title": "Catering Setup 44",
+      "description": "Food preparation and display",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 45,
+      "photoNumber": "3J4A4127",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4127.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4127.JPG",
+      "title": "Catering Setup 45",
+      "description": "Professional catering service",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 46,
+      "photoNumber": "3J4A4128",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4128.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4128.JPG",
+      "title": "Catering Setup 46",
+      "description": "Table arrangement and decoration",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 47,
+      "photoNumber": "3J4A4129",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4129.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4129.JPG",
+      "title": "Catering Setup 47",
+      "description": "Food presentation and display",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 48,
+      "photoNumber": "3J4A4130",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4130.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4130.JPG",
+      "title": "Catering Setup 48",
+      "description": "Professional catering arrangement",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 49,
+      "photoNumber": "3J4A4131",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4131.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4131.JPG",
+      "title": "Catering Setup 49",
+      "description": "Table setting and decoration",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 50,
+      "photoNumber": "3J4A4132",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4132.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4132.JPG",
+      "title": "Catering Setup 50",
+      "description": "Food display and presentation",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 51,
+      "photoNumber": "3J4A4133",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4133.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4133.JPG",
+      "title": "Catering Setup 51",
+      "description": "Professional service setup",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 52,
+      "photoNumber": "3J4A4134",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4134.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4134.JPG",
+      "title": "Catering Setup 52",
+      "description": "Table decoration and arrangement",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 53,
+      "photoNumber": "3J4A4135",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4135.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4135.JPG",
+      "title": "Catering Setup 53",
+      "description": "Food preparation and display",
+      "category": "food",
+      "featured": false
+    },
+    {
+      "id": 54,
+      "photoNumber": "3J4A4136",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4136.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4136.JPG",
+      "title": "Catering Setup 54",
+      "description": "Professional catering service",
+      "category": "catering",
+      "featured": false
+    },
+    {
+      "id": 55,
+      "photoNumber": "3J4A4137",
+      "rawUrl": "https://storage.googleapis.com/cateringphotos/3J4A4137.CR3",
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4137.JPG",
+      "title": "Catering Setup 55",
+      "description": "Table arrangement and decoration",
+      "category": "setup",
+      "featured": false
+    },
+    {
+      "id": 56,
+      "photoNumber": "3J4A4138",
+      "rawUrl": null,
+      "jpgUrl": "https://storage.googleapis.com/cateringphotos/3J4A4138.JPG",
+      "title": "Catering Setup 56",
+      "description": "Food presentation and display",
+      "category": "food",
+      "featured": false
+    }
+  ],
+  "categories": [
+    "catering",
+    "events",
+    "food",
+    "setup",
+    "desserts",
+    "drinks"
+  ],
+  "googleStorageBase": "https://storage.googleapis.com/cateringphotos/",
+  "totalPhotos": 56,
+  "photoRange": "3J4A4083-3J4A4138",
+  "formats": ["CR3", "JPG"],
+  "metadata": {
+    "description": "Complete collection of catering photos from Google Cloud Storage",
+    "lastUpdated": "2025-08-13",
+    "totalSize": "56 photos"
+  }
+} 

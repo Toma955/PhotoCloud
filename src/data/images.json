@@ -1,0 +1,20 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "url": "",
+      "title": "",
+      "description": "",
+      "category": "catering",
+      "featured": false
+    }
+  ],
+  "categories": [
+    "catering",
+    "events",
+    "food",
+    "setup",
+    "desserts",
+    "drinks"
+  ]
+}
